@@ -13,7 +13,7 @@ func Gerar() *cli.App {
 	flags := []cli.Flag{
 		cli.StringFlag{
 			Name:  "host",
-			Value: "https://github.com/feliipecardosoo",
+			Value: "github.com",
 		},
 	}
 
